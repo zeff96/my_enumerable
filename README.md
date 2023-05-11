@@ -20,9 +20,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [MORSE_DECORDER] <a name="about-project"></a>
+# 📖 [MY_ENUMERABLE] <a name="about-project"></a>
 
-**[MORSE_DECORDER]** is a database containg data about animals, animals' owners, clinic employees and visits to the clinic
+**[MY_ENUMERABLE]** is a ruby moudule mixing that leverage the power of modules and class together
 
 ## 🛠 Built With <a name="built-with"></a>
 
