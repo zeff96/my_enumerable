@@ -37,7 +37,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[decoding morse_code]**
+- **[Has multiple Enumeralbes]**
+- **[Has custom each method]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +83,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[decode any message size]**
+- [ ] **[Add Max, Min Enumerables]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
