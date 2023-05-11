@@ -7,5 +7,7 @@ class MyList
         @list = items;
     end
 
-    
+    def each(&block)
+        @list.each(&block)
+    end
 end
