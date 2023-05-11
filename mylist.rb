@@ -1,7 +1,8 @@
-include_relative 'enumerables.rb'
+$LOAD_PATH << '.'
+require 'enumerables.rb'
 
 class MyList
-  include Enumerable
+  include MyEnumerable
 
   def initialize(*items)
     @list = items
@@ -11,3 +12,13 @@ class MyList
     @list.each(&block)
   end
 end
+
+list = MyList.new(1, 2, 3, 4)
+
+puts list.all? {|e| e < 5}
+puts list.all? {|e| e > 5}
+
+puts list.any? {|e| e == 2}
+puts list.any? {|e| e == 5}
+
+puts list.filter {|e| e.even?}
