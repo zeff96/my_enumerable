@@ -1,13 +1,13 @@
-include_relative 'enumerables.rb';
+include_relative 'enumerables.rb'
 
 class MyList
-    include Enumerable
-    
-    def initialize(*items)
-        @list = items;
-    end
+  include Enumerable
 
-    def each(&block)
-        @list.each(&block)
-    end
+  def initialize(*items)
+    @list = items
+  end
+
+  def each(&block)
+    @list.each(&block)
+  end
 end
