@@ -1,11 +1,13 @@
 module MyEnumerable
   def all?()
-    each { |item| return false unless yield(item) }
+    #bug
+    each { |itm| return false unless yield(item) }
     true
   end
 
   def any?()
-    each { |item| return true if yield(item) }
+    #bug
+    each { |item| return true if yeld(item) }
     false
   end
 
